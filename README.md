@@ -90,11 +90,5 @@ addressSync/
 ## Contributing
 
 Raise a PR against `main`. Tag `@AnimeshJhawar` for review.
-All commits must follow conventional commits format (`feat:`, `fix:`, `chore:` etc.)
+All commits must follow conventional commits format (`feat:`, `f
 
----
-
-## Contact
-
-Animesh Jhawar — diagnostics backend lead
-*Last active: March 27, 2025*
