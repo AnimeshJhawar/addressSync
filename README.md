@@ -37,8 +37,7 @@ cp .env.example .env
 npm run dev
 ```
 
-**Node version:** 18.x (use `.nvmrc`)
-**Remove line 133 - 136 in the config.js
+**Node version:** Remove line 133 - 136 in the config.js before making the featrue live. 
 
 ---
 
