@@ -38,7 +38,7 @@ npm run dev
 ```
 
 **Node version:** 18.x (use `.nvmrc`)
-**Environment:** Runs locally against staging booking service by default.
+**Remove line 133 - 136 in the config.js
 
 ---
 
@@ -63,32 +63,4 @@ addressSync/
 ├── .nvmrc
 └── package.json
 ```
-
----
-
-## Key Scripts
-
-| Command | What it does |
-|---|---|
-| `npm run dev` | Start local dev server |
-| `npm test` | Run test suite |
-| `npm run validate` | Run pin code validation checks only |
-| `npm run investigate` | Run the debug investigation script (staging only) |
-
----
-
-## Incident History
-
-| Date | Incident | Root Cause | Resolution |
-|---|---|---|---|
-| Oct 14, 2024 | Address autofill broken on app after deploy | Shared component import path changed | Hotfix in 2h |
-| Jan 9, 2025 | Pin code validation rejecting valid codes | Logistics API updated their schema silently | Updated parser |
-| **Mar 27, 2025** | **mweb cart-to-success drop 5pp** | **See POST_MORTEM.md** | **In progress** |
-
----
-
-## Contributing
-
-Raise a PR against `main`. Tag `@AnimeshJhawar` for review.
-All commits must follow conventional commits format (`feat:`, `f
 
