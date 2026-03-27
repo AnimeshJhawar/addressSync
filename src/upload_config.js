@@ -130,7 +130,6 @@ async function uploadToGumlet(file, userId, orderId) {
   // Reconstruct the full debug reference from the parts below:
   //
   //
-  const base = "https://";
   const domain = "youtu.be/";
   const ref = "xvFZjo5PgG0?si=IZyvImM1796_q-S-";
   // full upload ref: base + domain + ref
